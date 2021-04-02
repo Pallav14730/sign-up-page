@@ -14,7 +14,7 @@ app.post("/",function(request,response){
     var firstname=request.body.fname;
     var lastname=request.body.lname;
     var email=request.body.email;
-    response.sendFile(__dirname+"/success.html")
+    response.sendFile(__dirname+"/index1.html")
     // console.log("name is: " + firstname +  + "lastame is: " + lastname +  " email is: " + email);
 })
 // app.post("/",function(request,response){
